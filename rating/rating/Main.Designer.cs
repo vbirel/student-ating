@@ -539,6 +539,8 @@
             this.Name = "Main";
             this.ShowIcon = false;
             this.Text = "рэйтинг студентов";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Main_FormClosing);
+            //this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Main_FormClosed);
             this.Load += new System.EventHandler(this.Main_Load);
             this.VisibleChanged += new System.EventHandler(this.Main_VisibleChanged);
             this.tabControl.ResumeLayout(false);

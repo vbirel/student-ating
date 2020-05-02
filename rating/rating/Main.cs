@@ -12,7 +12,7 @@ namespace rating
 {
     public partial class Main : Form
     {
-       public LogWindow logWindow = new LogWindow();//создал переменую класса для того чтобы вызвать ту переменую
+      // public LogWindow logWindow = new LogWindow();//создал переменую класса для того чтобы вызвать ту переменую
         public Main()
         {
             InitializeComponent();
@@ -35,10 +35,36 @@ namespace rating
 
         public void Main_VisibleChanged(object sender, EventArgs e)
         {
-            if (logWindow.rull > 2)//почемуто всегда 0
+            if (LogWindow.rull > 1)
             {
                 tabControl.TabPages.Remove(tabPage1);
+
+                if (LogWindow.rull > 2)//почемуто всегда 0
+                {
+                    tabControl.TabPages.Remove(tabPage2);
+
+                    if(LogWindow.rull > 3)
+                    {
+                        tabControl.TabPages.Remove(tabPage4);
+                    }
+                }
             }
+        }
+
+        //private void Main_FormClosed(object sender, FormClosedEventArgs e)
+        //{
+           
+        //}
+
+        private void Main_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            this.Validate();
+            this.personalInformationBindingSource.EndEdit();
+            this.personal_InformationTableAdapter.Update(this.рейтинг_студентовDataSet2.Personal_Information);
+            MessageBox.Show("Update successful");
+            LogWindow logWindow = new LogWindow();
+            logWindow.Close();
+            Environment.Exit(1);
         }
     }
 }
