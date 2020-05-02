@@ -1,0 +1,24 @@
+C:\Users\михаил\Desktop\курсачь\rating\rating\bin\Debug\rating.exe.config
+C:\Users\михаил\Desktop\курсачь\rating\rating\bin\Debug\rating.exe
+C:\Users\михаил\Desktop\курсачь\rating\rating\bin\Debug\rating.pdb
+C:\Users\михаил\Desktop\курсачь\rating\rating\obj\Debug\rating.csprojResolveAssemblyReference.cache
+C:\Users\михаил\Desktop\курсачь\rating\rating\obj\Debug\rating.LogWindow.resources
+C:\Users\михаил\Desktop\курсачь\rating\rating\obj\Debug\rating.Properties.Resources.resources
+C:\Users\михаил\Desktop\курсачь\rating\rating\obj\Debug\rating.csproj.GenerateResource.Cache
+C:\Users\михаил\Desktop\курсачь\rating\rating\obj\Debug\rating.csproj.CoreCompileInputs.cache
+C:\Users\михаил\Desktop\курсачь\rating\rating\obj\Debug\rating.exe
+C:\Users\михаил\Desktop\курсачь\rating\rating\obj\Debug\rating.pdb
+C:\Users\михаил\Desktop\курсачь\rating\rating\obj\Debug\rating.Main.resources
+C:\Users\михаил\Desktop\курсачь\rating\rating\bin\Debug\Рейтинг студентов.mdb
+C:\Users\vbirel\Desktop\курсачь\rating\rating\bin\Debug\Рейтинг студентов.mdb
+C:\Users\vbirel\Desktop\курсачь\rating\rating\bin\Debug\rating.exe.config
+C:\Users\vbirel\Desktop\курсачь\rating\rating\bin\Debug\rating.exe
+C:\Users\vbirel\Desktop\курсачь\rating\rating\bin\Debug\rating.pdb
+C:\Users\vbirel\Desktop\курсачь\rating\rating\obj\Debug\rating.csprojAssemblyReference.cache
+C:\Users\vbirel\Desktop\курсачь\rating\rating\obj\Debug\rating.LogWindow.resources
+C:\Users\vbirel\Desktop\курсачь\rating\rating\obj\Debug\rating.Main.resources
+C:\Users\vbirel\Desktop\курсачь\rating\rating\obj\Debug\rating.Properties.Resources.resources
+C:\Users\vbirel\Desktop\курсачь\rating\rating\obj\Debug\rating.csproj.GenerateResource.cache
+C:\Users\vbirel\Desktop\курсачь\rating\rating\obj\Debug\rating.csproj.CoreCompileInputs.cache
+C:\Users\vbirel\Desktop\курсачь\rating\rating\obj\Debug\rating.exe
+C:\Users\vbirel\Desktop\курсачь\rating\rating\obj\Debug\rating.pdb
