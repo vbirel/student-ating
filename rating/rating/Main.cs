@@ -12,6 +12,7 @@ namespace rating
 {
     public partial class Main : Form
     {
+       public LogWindow logWindow = new LogWindow();//создал переменую класса для того чтобы вызвать ту переменую
         public Main()
         {
             InitializeComponent();
@@ -27,8 +28,17 @@ namespace rating
             this.teachersTableAdapter.Fill(this.teacherDate.Teachers);              
             // TODO: данная строка кода позволяет загрузить данные в таблицу "loginDait.login". При необходимости она может быть перемещена или удалена.
             this.loginTableAdapter.Fill(this.loginDait.login);
+           
+            
 
+        }
 
+        public void Main_VisibleChanged(object sender, EventArgs e)
+        {
+            if (logWindow.rull > 2)//почемуто всегда 0
+            {
+                tabControl.TabPages.Remove(tabPage1);
+            }
         }
     }
 }

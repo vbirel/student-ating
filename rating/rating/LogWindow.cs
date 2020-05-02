@@ -12,7 +12,7 @@ namespace rating
 {
     public partial class LogWindow : Form
     {
-        public int rull;
+       
 
         public LogWindow()
         {
@@ -25,7 +25,7 @@ namespace rating
             passord.Clear();
             login.Focus();
         }
-
+        public static int rull;//обевил как глобальную
         private void buttonOK_Click(object sender, EventArgs e)
         {
             if(this.login.Text==null)
@@ -38,15 +38,15 @@ namespace rating
            
             main.Show();
             main.Visible = false;
-            for(int i=0; i <= main.dataLogin.Rows.Count; i++)
+            for(int i=0; i < main.dataLogin.Rows.Count; i++)
             {
                 if(this.login.Text==(string)main.dataLogin.Rows[i].Cells[0].Value)
                 {
                     if(this.passord.Text==(string)main.dataLogin.Rows[i].Cells[1].Value)
                     {
-                        LogWindow logWindow = new LogWindow();
-                        rull = (int)main.dataLogin.Rows[i].Cells[2].Value;
-                        logWindow.Visible = false;
+                        
+                        rull = (int)main.dataLogin.Rows[i].Cells[2].Value;//присвоел значение
+                        this.Visible = false;
                         main.Visible = true;
                         return;
                     }
